@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1rem 100px 0 100px;
+}
+
+
+.entete{
+   margin: 5px;
+   display: flex;
+   border-bottom: 1px solid  hsl(223, 64%, 98%);
+  
+   
+  
+}
+.partie1{
+    height: 100PX;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    align-items: center;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: hsl(220, 14%, 75%);
+}
+
+.liens{
+   margin-left: 5rem;
+   justify-content: space-between;
+}
+.lien{
+    margin-left: 1rem;
+}
+
+.partie2{
+    height: 100PX;
+    justify-content: end;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.icon-cart{
+    margin-right: 1.5rem;
+}
+.avatar{
+    width:50px;
+    height: 50px;
+}
+.avatar img{
+    width: 100%;
+}
+header{
+    display: flex;
+    margin-top: 6rem;
+}
+
+.gauche{
+  
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.haut{
+    width: 60%;
+}
+
+.haut img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.bas{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.images{
+    height: 70px;
+    width: 70px;
+}
+
+.images img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.image1{
+    filter: opacity(50%);
+    width: 70px;
+    height: 45px;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+}
+.droit{
+   
+    height: 500px;
+    width: 50%;
+}
+.parti1{
+    color:  hsl(26, 100%, 55%);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.parti2{
+    margin-bottom: 2rem;
+    width: 70%;
+    font-weight: bold;
+    font-size: 32px;
+}
+.parti3{
+    width: 70%;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+}
+.parti4{
+   display: flex;
+   width: 30%;
+   margin-top: 1.5rem;
+}
+.chiffre{
+    width: 70%;
+    font-weight: bold;
+    font-size: 24px;
+}
+.pourcent{
+    border: 1px solid hsl(25, 100%, 94%);
+    width: 30%;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(26, 100%, 55%);
+}
+.parti5{
+    color: hsl(220, 14%, 75%);
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+.parti6{
+    width: 65%;
+    height: 40px;
+    display: flex;
+    margin-top: 2rem;
+}
+.signe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 40%;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 0.5rem;
+    margin-right: 8%;
+}
+.bouton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color:  hsl(26, 100%, 55%);
+    border-radius: 0.5rem;
+    color: white;
+   
+}
+.img-cart{
+    margin-right: 1rem;
+    color: white;
+}
