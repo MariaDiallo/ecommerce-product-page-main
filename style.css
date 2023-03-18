@@ -8,34 +8,31 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     padding: 1rem 100px 0 100px;
 }
-
-
 .entete{
-   margin: 5px;
-   display: flex;
-   border-bottom: 1px solid  hsl(223, 64%, 98%);
-  
-   
-  
-}
+    margin: 5px;
+    display: flex;
+    border-bottom: 1px solid  hsl(223, 64%, 98%);
+    }
 .partie1{
     height: 100PX;
     display: flex;
     align-items: center;
     width: 70%;
     align-items: center;
-   
 }
 
-
+.menu{
+    margin-right: 1rem;
+    display: none;
+}
 a{
     text-decoration: none;
     color: hsl(220, 14%, 75%);
 }
 
 .liens{
-   margin-left: 5rem;
-   justify-content: space-between;
+    margin-left: 5rem;
+    justify-content: space-between;
 }
 .lien{
     margin-left: 1rem;
@@ -65,7 +62,6 @@ header{
 }
 
 .gauche{
-  
     height: 500px;
     width: 50%;
     display: flex;
@@ -74,6 +70,11 @@ header{
 
 .haut{
     width: 60%;
+    display: flex;
+    overflow: hidden;
+}
+.translateimg{
+    transform: translateX(-100%);
 }
 
 .haut img{
@@ -88,7 +89,6 @@ header{
     width: 60%;
     margin-top: 1rem;
 }
-
 .images{
     height: 70px;
     width: 70px;
@@ -100,13 +100,10 @@ header{
 }
 .image1{
     filter: opacity(50%);
-    width: 70px;
-    height: 45px;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 0.5rem;
 }
 .droit{
-   
     height: 500px;
     width: 50%;
 }
@@ -129,9 +126,9 @@ header{
     color: hsl(220, 14%, 75%);
 }
 .parti4{
-   display: flex;
-   width: 30%;
-   margin-top: 1.5rem;
+    display: flex;
+    width: 30%;
+    margin-top: 1.5rem;
 }
 .chiffre{
     width: 70%;
@@ -177,9 +174,92 @@ header{
     background-color:  hsl(26, 100%, 55%);
     border-radius: 0.5rem;
     color: white;
-   
 }
 .img-cart{
     margin-right: 1rem;
     color: white;
+}
+
+
+
+.cart{
+    width: 300px;
+    height: 210px;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 110px;
+    right: 80px;
+    z-index: 9px;
+    background-color: white;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.newcart{
+    width: 300px;
+    height: 210px;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 110px;
+    right: 80px;
+    z-index: 9px;
+    background-color: white;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.cart-top{
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 1px solid  hsl(220, 14%, 75%);
+}
+.image-text{
+    display: flex;
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+}
+.image img{
+    width: 100%;
+    border-radius: 0.25rem;
+}
+.text{
+    margin-right: 0.5rem;
+}
+.text-text{
+    font-size: 15px;
+    color: hsl(220, 14%, 75%);
+}
+.chiffre{
+    display: flex;
+    font-size: 14px;
+}
+.chiffre-left{
+    color: hsl(220, 14%, 75%);
+    margin-right: 5px;
+}
+.btn-supp{
+    margin-top: 0.75rem;
+}
+.checkout{
+    width: 250px;
+    height: 45px;
+    border-radius: 0.5rem;
+    background-color: hsl(26, 100%, 55%);
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkout p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 375px){
+    main{
+        background-color: red;
+    }
 }
