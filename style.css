@@ -22,7 +22,10 @@ body{
 }
 
 .menu{
+    display: none;
     margin-right: 1rem;
+}
+.Collections{
     display: none;
 }
 a{
@@ -144,11 +147,13 @@ header{
     align-items: center;
     justify-content: center;
     color: hsl(26, 100%, 55%);
+
 }
 .parti5{
     color: hsl(220, 14%, 75%);
     font-size: 12px;
     margin-top: 0.5rem;
+    text-decoration: line-through;
 }
 .parti6{
     width: 65%;
@@ -231,7 +236,7 @@ header{
     font-size: 15px;
     color: hsl(220, 14%, 75%);
 }
-.chiffre{
+.chiffre_cart{
     display: flex;
     font-size: 14px;
 }
@@ -259,7 +264,124 @@ header{
 }
 
 @media screen and (max-width: 375px){
+    body{
+        padding: 0;
+    }
+    .menu{
+        display: inline;
+
+    }
+    .close{
+        display: inline;
+    }
+    .liens{
+        display: none;
+    }
+    .entete{
+        margin: 0;
+        border-bottom: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .avatar{
+        width:30px;
+        height: 30px;
+    }
+    .avatar img{
+        width: 100%;
+    }
+    header{
+        display: block;
+        margin-top: 0;
+    }
+    .gauche{
+        width: 100%;
+        height: max-content;
+    }
+    .haut{
+        margin-top: none;
+        width: 100%;
+    }
+    .haut img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0;
+    }
+    .bas{
+        display: none;
+    }
+    .droit{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .parti1{
+        font-weight: bold;
+    }
+    .parti2{
+        width: 100%;
+        font-size: 28px;
+        margin-bottom: 1rem;
+    }
+    .parti3{
+        width: 90%;
+        font-size: 15px;
+    }
+    .unite{
+        border: 1px solid green;
+        display: flex;
+    }
+    .parti4{
+        margin-top: 0;
+    }
+    .parti5{
+        margin-top: 0;
+    }
+    .parti6{
+        display: block;
+        height: 60px;
+    }
+    .signe{
+        width: 300px;
+        height: 40px;
+        margin-bottom: 0.5rem;
+    }
+    .bouton{
+        width: 300px;
+        height: 40px;
+    }
+    .Collections{
+        left: -120%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 240px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        box-shadow: 10rem 0 0 rgba(0, 0, 0, 0.5);
+        transition: ease-in-out .3s;
+    }
+    .newCollections{
+        left: 0;
+    }
+    .Collections *{
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+    .Collections a{
+        color: black;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .close{
+        margin-bottom: 2rem;
+    }
+    .newclose{
+        left: -120%;
+    }
+
     main{
         background-color: red;
+        
     }
 }

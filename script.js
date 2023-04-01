@@ -27,3 +27,14 @@ function images(elt) {
     haut.getAttribute.src = elt.getAttribute.src ;
     
     */
+
+    let menu = document.querySelector('.menu')
+    menu.addEventListener('click',Menu)
+    let ferme = document.querySelector('.close')
+    ferme.addEventListener('click',Menu)
+    function Menu() {
+        let Collections = document.querySelector('.Collections')
+        Collections.classList.toggle('newCollections')
+    }
+    
+    
