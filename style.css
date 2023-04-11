@@ -130,7 +130,7 @@ header{
 }
 .parti4{
     display: flex;
-    width: 30%;
+    width: 150px;
     margin-top: 1.5rem;
 }
 .chiffre{
@@ -283,6 +283,12 @@ header{
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .partie1{
+        height: 50px;
+    }
+    .partie2{
+        height: 50px;
+    }
     .avatar{
         width:30px;
         height: 30px;
@@ -327,18 +333,28 @@ header{
         font-size: 15px;
     }
     .unite{
-        border: 1px solid green;
         display: flex;
+        margin-top: 1.5rem;
+        align-items: center;
     }
     .parti4{
         margin-top: 0;
+        margin-right: 130px;
+        align-items: center;
+    }
+    .pourcent{
+        width: 40px;
+        height: 20px;
+        border-radius: 0.25rem;
+        
     }
     .parti5{
         margin-top: 0;
+        font-size: 15px;
     }
     .parti6{
         display: block;
-        height: 60px;
+        height: 90px;
     }
     .signe{
         width: 300px;
@@ -376,12 +392,8 @@ header{
     .close{
         margin-bottom: 2rem;
     }
-    .newclose{
-        left: -120%;
-    }
 
     main{
-        background-color: red;
         
     }
 }
